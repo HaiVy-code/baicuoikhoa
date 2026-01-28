@@ -17,7 +17,6 @@ def generateboard(size, difficulty):
     elif size == "3x3":
         empty = {"Easy": 30, "Medium": 40, "Hard": 50}[difficulty]
         return generate3x3(empty)
-# =========================
 # TẠO SUDOKU 2x2 (4x4)
 def generate2x2(empty):
     """
